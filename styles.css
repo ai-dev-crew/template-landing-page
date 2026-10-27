@@ -1,0 +1,55 @@
+:root {
+  color: #172033;
+  background: #f5f7fb;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  width: min(70rem, 90%);
+  margin: 0 auto;
+}
+
+.hero {
+  min-height: 70vh;
+  display: grid;
+  align-content: center;
+  justify-items: start;
+  gap: 1.25rem;
+}
+
+h1 {
+  max-width: 14ch;
+  margin: 0;
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  line-height: 1;
+}
+
+.pitch {
+  max-width: 42rem;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.eyebrow {
+  color: #3d55c5;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cta {
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  color: white;
+  background: #3d55c5;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cta:focus-visible {
+  outline: 3px solid #172033;
+  outline-offset: 4px;
+}
